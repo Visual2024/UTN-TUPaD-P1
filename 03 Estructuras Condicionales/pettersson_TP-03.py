@@ -102,7 +102,9 @@ else:
 # pantalla; en caso contrario, dejar el string tal cual lo ingresó el usuario e imprimirlo por
 # pantalla.
 
-frase = input("");
+frase = input("Por favor, ingrese una frase o palabra: ")
+
+frase.lower()
 
 if frase[-1] in "aeiou":
     frase += "!"
